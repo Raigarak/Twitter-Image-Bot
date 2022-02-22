@@ -3,6 +3,6 @@
 		"redditSubredditUrlList":[
 					"https://old.reddit.com/r/Animewallpaper/new/"],
 		"wallHavenUrlList": [
-					"https://wallhaven.cc/search?q=id%3A5"]
+					"https://wallhaven.cc/api/v1/search?q=anime%20girls&sorting=random"]
 		
 }
