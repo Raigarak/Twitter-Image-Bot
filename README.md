@@ -1,6 +1,6 @@
 # TwitterImageBot
 
-The bot download images from any subreddits and from wallhaven defined in the `config.json` file. After, it'll upload it to your twitter account and the image file will be deleted.
+The bot download images from any subreddits and from wallhaven's rest api end points defined in the `config.json` file. After, it'll upload it to your twitter account and the image file will be deleted.
 
 **Setup** -
 Request your own api key from Twitter developer portal.
