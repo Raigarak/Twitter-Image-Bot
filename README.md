@@ -3,8 +3,8 @@
 The bot download images from any subreddits and from wallhaven defined in the `config.json` file. After, it'll upload it to your twitter account and the image file will be deleted.
 
 **Setup** -
-Request your own api key from twitter developer portal.
-Replace the ConsumerKey, ConsumerSecret, Access Token, and AccessTokenSecret with your own in the `TwitterImageHanlder.java` class.
+Request your own api key from Twitter developer portal.
+Replace the `ConsumerKey`, `ConsumerSecret`, `Access Token`, and `AccessTokenSecret` with your own in the `TwitterImageHanlder.java` class.
 
 **How to change search parameters**
 To change the subreddit, thread upvote requirement, or wallhaven search parameters the bot downloads the images from. Add the links to the `Config.json` file.
@@ -13,9 +13,12 @@ To change the subreddit, thread upvote requirement, or wallhaven search paramete
 To change the duration between each check. Go into the `TwitterBot.java` file and inside the while loop. Change `TimeUnit.MINUTES.sleep(30);`
 
 Days - `TimeUnit.DAYS.sleep();`
-Hours - `TimeUnit.HOURS.sleep();
-Minutes - 'TimeUnit.MINUTES.sleep();
-Seconds - `TimeUnit.SECONDS.sleep();
+
+Hours - `TimeUnit.HOURS.sleep();`
+
+Minutes - 'TimeUnit.MINUTES.sleep();`
+
+Seconds - `TimeUnit.SECONDS.sleep();`
 
 For more information, please check the java docs https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/TimeUnit.html
 
