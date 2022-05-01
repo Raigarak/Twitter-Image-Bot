@@ -16,7 +16,7 @@ Days - `TimeUnit.DAYS.sleep();`
 
 Hours - `TimeUnit.HOURS.sleep();`
 
-Minutes - 'TimeUnit.MINUTES.sleep();`
+Minutes - `TimeUnit.MINUTES.sleep();`
 
 Seconds - `TimeUnit.SECONDS.sleep();`
 
