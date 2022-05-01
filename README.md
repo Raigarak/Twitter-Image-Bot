@@ -7,7 +7,7 @@ Request your own api key from Twitter developer portal.
 Replace the `ConsumerKey`, `ConsumerSecret`, `Access Token`, and `AccessTokenSecret` with your own in the `TwitterImageHanlder.java` class.
 
 **How to change search parameters**
-To change the subreddit, thread upvote requirement, or wallhaven search parameters the bot downloads the images from. Add the links to the `Config.json` file.
+To change the subreddit, thread minimum upvotes, or wallhaven rest api endpoints. Add the links to the `Config.json` file.
 
 **How to change duration per tweet**
 To change the duration between each check. Go into the `TwitterBot.java` file and inside the while loop. Change `TimeUnit.MINUTES.sleep(30);`
