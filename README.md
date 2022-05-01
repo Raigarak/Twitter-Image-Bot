@@ -23,7 +23,7 @@ Minutes - `TimeUnit.MINUTES.sleep();`
 
 Seconds - `TimeUnit.SECONDS.sleep();`
 
-For more information, please check the java docs https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/TimeUnit.html
+For more information, please check the java docs [TimeUnit docs](https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/TimeUnit.html)
 
 **After configuration**
 
