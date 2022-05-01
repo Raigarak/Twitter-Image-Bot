@@ -2,7 +2,7 @@
 
 The bot download images from any subreddits and from wallhaven's rest api end points defined in the `config.json` file. After, it'll upload it to your twitter account and the image file will be deleted.
 
-**Setup** -
+**Setup** 
 Request your own api key from Twitter developer portal.
 Replace the `ConsumerKey`, `ConsumerSecret`, `Access Token`, and `AccessTokenSecret` with your own in the `TwitterImageHanlder.java` class.
 
@@ -23,4 +23,5 @@ Seconds - `TimeUnit.SECONDS.sleep();`
 For more information, please check the java docs https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/TimeUnit.html
 
 **After configuration**
+
 After initalizing everything above, all you have to do is compile the program and run it. It will run forever until you close the program manually. 
