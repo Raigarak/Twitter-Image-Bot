@@ -39,12 +39,15 @@ public class TwitterBot {
                         File file = new File("image.jpg");
                         ImageIO.write(image, "jpg", file);
 
+                        //In case image takes too long to download
+                        TimeUnit.SECONDS.sleep(5);
+
                         //Upload image to twitter
                         twitterHandler.uploadImageToTwitter(file);
 
                         //Delete image that was just downloaded
                         file.delete();
-                        TimeUnit.MINUTES.sleep(30);
+                        TimeUnit.MINUTES.sleep(1);
                     }
                     alreadyPrinted.add(urlLink);
                 }
