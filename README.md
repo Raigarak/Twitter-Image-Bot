@@ -1,5 +1,7 @@
 # Twitter Image Bot
 
+12/25/2022 new changes to Twitter4J and/or Twitter api broke the code in TwitterImageHandler.java. 
+
 [Youtube Demo](https://www.youtube.com/watch?v=5rU3ZeE_pHk)
 
 The bot download images from any subreddits and from wallhaven's rest api end points defined in the `config.json` file. After, it'll upload it to your twitter account and the image file will be deleted.
